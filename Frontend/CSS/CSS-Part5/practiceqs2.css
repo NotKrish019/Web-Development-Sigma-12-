@@ -1,0 +1,12 @@
+#outer{
+    height: 50px;
+    width: 900px;
+    border:2px solid rgb(6, 151, 151);
+    display: flex;
+    background-color: pink;
+}
+#outer div{
+    /* font-size: 24px; */
+    margin-right: 8px;    
+    line-height: 50px;
+}

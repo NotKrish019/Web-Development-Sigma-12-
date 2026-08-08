@@ -1,0 +1,20 @@
+.mcard ,.wcard{
+    width: 200px;
+    height: 300px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 2px;
+    box-shadow:2px 2px 6px black;
+}
+img{
+    height: 200px;
+    width: 100%;
+    border-radius: 5px 5px 0 0;
+}
+.desc{
+    padding: 0 2px 0 2px;
+}
+.mcard:hover, .wcard:hover{
+    box-shadow:2px 8px 16px black;
+}

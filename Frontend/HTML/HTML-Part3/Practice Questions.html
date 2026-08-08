@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- Ques 1 -->
+     <table border="1">
+        <caption>Student Information</caption>
+        <header>
+            <tr>
+                <th rowspan="6">Info</th>
+                <th rowspan="2">Name</th>
+                <th colspan="2">Address</th>
+            </tr>
+            <tr>
+                <th>City</th>
+                <th>House</th>
+            </tr>
+        </header>
+        <main>
+            <tr>
+                <td>A</td>
+                <td>Delhi</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>B</td>
+                <td>Mumbai</td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>C</td>
+                <td>Kolkata</td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>D</td>
+                <td>Pune</td>
+                <td>4</td>
+            </tr>
+        </main>
+     </table>
+     <!-- Question 2 -->
+      <hr>
+      <hr>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" />
+        <br>
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="M" value="Male"/>
+        <label for="M">Male</label>
+        <input type="radio" name="sex" id="F" value="Female"/>
+        <label for="F">Female</label>
+
+        <br>
+        <label for="Country">Country:</label>
+        <select name="country" id="country">
+            <option name="Select an option">Select an option</option>
+            <option name="India">India</option>
+            <option name="Germany">Germany</option>
+            <option name="Japan">Japan</option>
+        </select>
+        <br>
+        <label for="msg">Message: </label>
+        <br>
+        <textarea id="msg" name="message" row="5" col="5"></textarea>
+        <br>
+        <input type="checkbox" id="Subscribe" name="subs" />
+        <label for="Subscribe">Subscribe?</label>
+        <br>
+        <button type="Submit">Submit</button>
+      </form>
+</body>
+</html>

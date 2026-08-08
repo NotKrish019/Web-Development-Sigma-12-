@@ -1,0 +1,58 @@
+.outer{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+.eyes div{
+    height:30px;
+    width:30px;
+    border: 2px solid black;
+    margin:10px;
+    border-radius:50%;
+    background-color:black;
+    display: inline-block;
+    position:absolute;
+}
+#eye1{
+    top:50px;
+    left: 40px;
+}
+#eye2{
+    top:50px;
+    left: 120px;
+}
+.mouth{
+    height: 20px;
+    width:90px;
+    border: 2px solid black;
+    background-color:brown;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    position:absolute;
+    top: 150px;
+    left: 60px
+}
+.teeth{
+    height:10px;
+    width:10px;
+    border: 2px solid black;
+    display: inline-block;
+    background-color:white;
+    margin: -2px;
+    position:relative;
+    left:7px;
+}
+#nose{
+    height:5px;
+    width:5px;
+    border:2px solid black;
+    border-radius:50%;
+    background-color: black;
+    position: absolute;
+    top: 110px;
+    left: 105px;
+}

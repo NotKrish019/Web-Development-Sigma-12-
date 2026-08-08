@@ -1,0 +1,20 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: lime;
+    border-radius: 10%;
+    /* transition: 500ms;
+    transition-delay: 200ms; */
+    margin: 0 auto;
+    /* margin-top: 10px;
+    transition: margin-top 500ms ease-in-out 200ms; */
+    
+}
+
+div:hover{
+    /* background-color: red;
+    border-radius: 30%; */
+    /* margin-top: 200px;
+    background-color: yellow; */
+
+}

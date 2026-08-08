@@ -1,0 +1,25 @@
+.box{
+    height:100px;
+    width:300px;
+    background-color:pink;
+    animation-name:fontAnimation;
+    animation-duration: 3s;
+    animation-timing-function:ease-in;
+    animation-delay: 0;
+    animation-iteration-count: infinite;
+    animation-direction:alternate
+}
+
+@keyframes fontAnimation{
+    from{
+        font-size:20px;
+        background-color: red;
+    }
+    50%{
+        background-color: orange;
+    }
+    to{
+        font-size: 55px;
+        background-color: yellow;
+    }
+}

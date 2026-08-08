@@ -1,0 +1,45 @@
+.container{
+    height: 400px;
+    width:600px;
+    background-color: azure;
+    display: grid;
+    grid-template-rows: 12;
+    grid-template-columns: 12;
+    grid-gap: 10px;
+}
+.item{
+    background-color: pink;
+}
+
+#header{
+   grid-column-start:1;
+   grid-column-end:12; 
+}
+#sidebar{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start:2;
+    grid-row-end: 11;
+}
+#navigation{
+    grid-column-start:3;
+    grid-column-end:9;
+}
+#ads{
+    grid-column-start:9;
+    grid-column-end:12;
+    grid-row-start:2;
+    grid-row-end:11;
+}
+#main{
+    grid-row-start:3;
+    grid-row-end:11;
+    grid-column-start:3;
+    grid-column-end:9;
+}
+#footer{
+    grid-row-start: 11;
+    grid-row-end:12;
+    grid-column-start:1;
+    grid-column-end:12;
+}

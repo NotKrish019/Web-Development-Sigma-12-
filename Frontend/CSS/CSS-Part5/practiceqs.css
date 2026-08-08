@@ -1,0 +1,26 @@
+#outer{
+    height: 380px;
+    width:380px;
+    border: 2px solid black;
+    margin: 10px auto;
+    border-radius: 8px;
+    border-color: rgb(13, 182, 126);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#outer div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin:auto;
+    border-radius: 6px;
+
+}
+.tiles{
+    background-color: grey;
+    font-size:xxx-large;
+    text-align: center;
+    font-weight: 800;
+}
